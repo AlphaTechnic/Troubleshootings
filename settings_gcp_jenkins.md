@@ -13,7 +13,7 @@
     - 운영체제 : ubuntu 설정
   - 방화벽
     - HTTP 트래픽 허용
-- VPC네트워크 -> 고정 IP
+- VPC네트워크 -> 외부IP주소 ->고정 IP
 - 방화벽 설정 (port open)
 - https 인증
 
@@ -280,7 +280,7 @@ sudo systemctl status jenkins
 - jenkins에게 sudo 권한 주기
 
 ```shell
-# /etc/sudoers 수정
+# /etc/sudoers 수정 (ctrl+X - y - enter)
 sudo visudo
 
 # 아래 내용 추가 (!주의! alpha_technic은 사용환경에 맞게 수정)
