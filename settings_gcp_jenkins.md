@@ -12,8 +12,8 @@
   - 부팅디스크
     - 운영체제 : ubuntu 설정
   - 방화벽
-    - HTTP 트래픽 체크
-- 고정 IP
+    - HTTP 트래픽 허용
+- VPC네트워크 -> 고정 IP
 - 방화벽 설정 (port open)
 - https 인증
 
@@ -37,7 +37,7 @@ portainer/portainer
 - Docker swarm
 
 ``` shell
-sudo docker swarm init --adevertise-addr [IP 주소]
+sudo docker swarm init --advertise-addr [IP 주소]
 sudo docker swarm join-token manager
 ```
 
