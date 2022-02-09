@@ -62,7 +62,6 @@ sudo docker swarm join-token manager
 - jenkins가 실행할 script에 sudo 명령 입력이 안됨.. 
   - ⇒ alpha_technic 계정도 sudo 명령 없이 docker를 실행할 수 있도록 설정
   - ⇒ `/etc/sudoers`를 수정한다.
-  - 
 
 ### Big Concept
 
