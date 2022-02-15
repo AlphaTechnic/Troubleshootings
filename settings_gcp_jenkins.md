@@ -49,7 +49,13 @@ sudo docker swarm join-token manager
 
 ## Jenkins
 
-### **미리 읽는 Troubleshooting Point**
+### 서비스의 구조
+
+![Architect_true](./imgs/Architect_true.jpg)
+
+
+
+### 미리 읽는 Troubleshooting Point**
 
 - Docker가 sudo로 실행되어서 jenkins가 github에 등록한 키 인식을 못하는 문제 
   - ⇒ jenkins를 설치한 주체가 root가 아니라 alpha_technic이어야 한다.
