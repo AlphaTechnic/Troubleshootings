@@ -25,6 +25,6 @@
   - nginx를 reload함
 
   ```bash
-  sudo rm -f /var/log/nginx/*
-  sudo nginx -s reload
+  rm -f /var/log/nginx/*
+  nginx -s reload
   ```
